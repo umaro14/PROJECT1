@@ -1,0 +1,272 @@
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        flex-wrap: wrap;
+        font: roboto;
+    
+}
+
+.header-1{
+    display: flex;
+    width:100%;
+    align-self: stretch;
+    align-items: center;
+    justify-content:space-around;
+    flex-flow: row wrap;
+    gap:15%;
+    color: white;
+}
+.main{
+    margin-left: 180px;
+    margin-top: 300px;
+    color: white;
+}
+
+ul{
+    display: flex;
+    
+    text-decoration: none;
+}
+    
+.container1 {
+    background-color: rgb(10, 28, 63);
+    background: url("images/parsic3.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    flex-wrap: wrap;
+    height: 800px;
+    margin-top: 0;
+}
+
+
+.logo{
+    font-size: 22px;
+    margin-top: 15px;
+    padding-left: 40px;
+    color: rgb(24, 173, 69);
+}
+
+li{
+    padding-left: 10px;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+ul.ul-list{
+   list-style-type: none;
+   margin-top: 15px;
+   
+   text-align: right;
+   
+}
+
+.description{
+    font-size: 18px;
+    font-style: oblique;
+}
+
+.btn1{
+  color: white;
+  background-color:rgb(24, 173, 69);
+  padding: 10px;
+  width: 100px;
+  border: none;
+  border-radius: 6px;
+}
+
+.second-div{
+    background-color: rgba(31, 31, 41, 0.966);
+    height: 400px;
+}
+
+.third-div{
+    height: 600px;
+    background: url("images/warrior.webp") no-repeat center center fixed;
+    background-size: cover;
+    flex-wrap: wrap;
+    margin-top: 0;
+    text-align: center;
+    color: white;
+}
+
+.alexander{
+    margin: 0px 0px;
+}
+
+.forth-div{
+    height: 340px;
+    background-color: rgba(31, 31, 41, 0.966);
+    margin-top: 0;
+    flex-wrap: wrap;
+    
+    
+}
+
+.quote{
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 23px;
+    width: fit-content;
+    flex-wrap: wrap;
+    border-radius: 6px;
+    color: white;
+}
+
+.the-great{
+    margin-left: 330px;
+  
+}
+
+
+
+.forth-info{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color:rgb(24, 173, 69);
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 23px;
+    width: fit-content;
+    flex-wrap: wrap;
+    border-radius: 6px;
+    color: white;
+   
+    
+}
+
+.second-div{
+    
+    flex-wrap: wrap;
+    padding: 64px;
+    margin: auto;
+    height: fit-content;
+    justify-content: center;
+    
+}
+
+.divs{
+    
+   
+   
+   /* max-width: 100%;
+    max-height: 100%;
+    
+  
+    border-radius: 6px;
+    width: 100%;*/
+    height: 100px; /* Adjust the height as needed */
+    background-color:rgb(24, 173, 69);
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    justify-content: center;
+    width: 140px;
+    border-radius: 6px;
+   
+
+}
+
+.some{
+   
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: white;
+}
+
+
+.second-div .some{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    column-gap: 18px;
+    margin-bottom: 150px;
+
+   
+}
+
+
+/*.{
+    text-align: center;
+} display:flex;
+margin: auto;
+   gap: 28px;
+   flex-flow: row wrap;
+   justify-content: center;*/
+
+   .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.call-1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.footer-1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.btn-2{
+    background-color: rgb(24, 173, 69);
+    width: 100px;
+    padding: 10px;
+    border-radius: 6px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-color: #fff;
+    color: white;
+}
+
+
+.btn-2:hover{
+    color: rgb(24, 173, 69);
+    background-color: #fff;
+}
+
+.myfooter{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.foot{
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-top: 100px;
+}
+
+footer{
+   
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+   
+}
